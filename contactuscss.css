@@ -1,0 +1,122 @@
+:root {
+    --color1: orange;
+    --color2: rgb(206, 153, 55);
+    --color3: rgba(255, 216, 184, 0.457);
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    border-radius: 5px;
+}
+
+body {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer {
+    width: 80%;
+    margin: 2%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.companyTitle {
+    padding: 2%;
+    border: 1px solid black;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    justify-content: center;
+}
+
+.navBar {
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navBar > div {
+    width: fit-content;
+    padding: 0.5%;
+}
+
+.navBar > div:hover {
+    color: var(--color2);
+}
+
+.underlinePage {
+    border-bottom: 2px solid var(--color1);
+}
+
+.footer {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: rgb(254, 254, 254); */
+    border-radius: 5px;
+
+    /* border: 1px solid black; */
+}
+
+.training {
+    width: 90%;
+    height: 5vh;
+    padding: 1%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--color2);
+    font-size: 1.15rem;
+}
+
+.handles {
+    width: 20%;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+
+.companyName {
+    font-weight: bold;
+}
+
+.address {
+    height: 10vh;
+    text-align: center;
+    color: grey;
+}
+
+.copyright {
+    font-size: 1rem;
+    color: grey;
+}

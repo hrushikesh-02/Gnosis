@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Cairo:wght@200&family=Dosis:wght@200&family=Indie+Flower&family=Montserrat+Alternates:wght@100&family=MuseoModerno:wght@100&family=Poppins:wght@100&family=Rajdhani:wght@300&family=Silkscreen&display=swap');
+/* font-family: 'Baloo Thambi 2', cursive;
+font-family: 'Cairo', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'MuseoModerno', cursive;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Silkscreen', cursive; */
+
+:root {
+    --color1: orange;
+    --color2: rgb(206, 153, 55);
+    --color3: rgba(255, 216, 184, 0.457);
+    --margincommon: 2rem;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    border-radius: 5px;
+    /* font-family: 'Dosis', sans-serif; */
+}
+
+body {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer {
+    width: 80%;
+    margin: 2%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.companyTitle {
+    padding: 2%;
+    border: 1px solid black;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    justify-content: center;
+}
+
+.navBar {
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navBar > div {
+    width: fit-content;
+    padding: 0.5%;
+}
+
+.navBar > div:hover {
+    color: var(--color2);
+}
+
+.underlinePage {
+    border-radius: 0px;
+    border-bottom: 2px solid var(--color1);
+}
+
+.serviceContainer {
+    margin-top: var(--margincommon);
+    width: 100%;
+    /* height: 300vh; */
+    display: grid;
+    grid-template-areas:
+        'ec lt bc'
+        'pt it tea'
+        'fs dt sl';
+    gap: 4rem;
+}
+
+.sec,
+.slt,
+.sbc,
+.spt,
+.sit,
+.stea,
+.sfs,
+.sdt,
+.ssl {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 9px 0px;
+    min-width: 100%;
+    height: 90vh;
+    /* border: 1px solid black; */
+    background-color: var(--color3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardTitle {
+    width: 100%;
+    height: 15%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.cardImage {
+    width: 90%;
+    height: 25%;
+    /* border: 1px solid black; */
+}
+.cardText {
+    margin-top: 1rem;
+    width: 90%;
+    height: 35%;
+    /* border: 1px solid black; */
+    padding: 5%;
+    font-size: 1.2rem;
+}
+.cardBtn {
+    width: 70%;
+    height: 10%;
+    /* border: 1px solid black; */
+    margin-top: 1rem;
+    background-color: var(--color1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.sec {
+    grid-area: ec;
+}
+.slt {
+    grid-area: lt;
+}
+.sbc {
+    grid-area: bc;
+}
+.spt {
+    grid-area: pt;
+}
+.sit {
+    grid-area: it;
+}
+.stea {
+    grid-area: tea;
+}
+.sfs {
+    grid-area: fs;
+}
+.sdt {
+    grid-area: dt;
+}
+.ssl {
+    grid-area: sl;
+}
+
+.footer {
+    margin-top: var(--margincommon);
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: rgb(254, 254, 254); */
+    border-radius: 5px;
+
+    /* border: 1px solid black; */
+}
+
+.training {
+    width: 90%;
+    height: 5vh;
+    padding: 1%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--color2);
+    font-size: 1.15rem;
+}
+
+.handles {
+    width: 20%;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+
+.companyName {
+    font-weight: bold;
+}
+
+.address {
+    height: 10vh;
+    text-align: center;
+    color: grey;
+}
+
+.copyright {
+    font-size: 1rem;
+    color: grey;
+}
