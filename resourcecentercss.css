@@ -73,63 +73,6 @@ body {
     border-radius: 0px;
 }
 
-.contactusContainerTitle {
-    align-self: flex-start;
-    font-size: 1.5rem;
-    color: var(--color2);
-    margin-top: var(--margincommon);
-}
-
-.contactusContainer {
-    margin-top: var(--margincommon);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 80vh;
-    width: 100%;
-    /* border: 1px solid black; */
-}
-
-.lhs {
-    width: 48%;
-    height: 100%;
-    /* border: 1px solid black; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    text-align: center;
-}
-.lhs > input {
-    border: none;
-    border-bottom: 1px solid grey;
-    padding-left: 5px;
-    height: 10%;
-    width: 100%;
-    font-size: 1.2rem;
-    border-radius: 0px;
-    /* line-height: 202px; */
-}
-
-.lhs > input:focus {
-    border: 1px solid black;
-}
-.rhs {
-    width: 48%;
-    height: 100%;
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.map {
-    margin-top: 5rem;
-    width: 100%;
-    height: 70vh;
-    border: 1px solid black;
-}
-
 .footer {
     width: 100%;
     height: 40vh;
