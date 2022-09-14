@@ -73,6 +73,69 @@ body {
     border-radius: 0px;
 }
 
+.vidSection {
+    margin-top: var(--margincommon);
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color1);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 15px 5px;
+}
+
+.vidtitle {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    border-left: 1px solid black; /* border left because this div is rotates by 180 degree*/
+    border-radius: 0px;
+    letter-spacing: 5px;
+    height: 100%;
+    width: 5%;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videodiv {
+    height: 100%;
+    width: 95%;
+    background-color: aliceblue;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    border-radius: 0px;
+    overflow-y: scroll;
+}
+
+.videodiv::-webkit-scrollbar {
+}
+
+.vidscroller {
+    height: 300vh;
+    width: 90%;
+    margin: 2%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.video1,
+.video2,
+.video3,
+.video4,
+.video5 {
+    border: 1px solid black;
+    width: 100%;
+    background-color: white;
+    height: 50vh;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 9px 0px;
+}
+
 .footer {
     width: 100%;
     height: 40vh;
